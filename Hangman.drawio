@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-21T07:31:26.028Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OmbSyGi2-yyigriLtN3z" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-21T07:38:47.207Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="UBa9vi2kH3nWvS08V4RG" version="21.5.0" type="github">
   <diagram name="Page-1" id="Jx2odN2UkfCDQaL7GSCj">
     <mxGraphModel dx="910" dy="-616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -178,11 +178,14 @@
         <mxCell id="49EBJ3sMtInon-qzi84H-54" value="Your man is dead. YOU LOSE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="1515" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="49EBJ3sMtInon-qzi84H-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="49EBJ3sMtInon-qzi84H-57" target="49EBJ3sMtInon-qzi84H-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="49EBJ3sMtInon-qzi84H-57" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="1435" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="49EBJ3sMtInon-qzi84H-58" value="You guessed the word correctly. YOU WON" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="1360" width="120" height="60" as="geometry" />
+          <mxGeometry x="440" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
