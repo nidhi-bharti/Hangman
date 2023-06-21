@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-21T07:23:55.279Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="D2GvsQ0LMY4ELzW85y_Z" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-21T07:31:26.028Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OmbSyGi2-yyigriLtN3z" version="21.5.0" type="github">
   <diagram name="Page-1" id="Jx2odN2UkfCDQaL7GSCj">
     <mxGraphModel dx="910" dy="-616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -135,6 +135,9 @@
         <mxCell id="49EBJ3sMtInon-qzi84H-39" value="Increase incorrect_guess by 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="1945" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="49EBJ3sMtInon-qzi84H-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="49EBJ3sMtInon-qzi84H-44" target="49EBJ3sMtInon-qzi84H-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="49EBJ3sMtInon-qzi84H-44" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="1620" width="60" height="30" as="geometry" />
         </mxCell>
@@ -152,6 +155,34 @@
         </mxCell>
         <mxCell id="49EBJ3sMtInon-qzi84H-48" value="True&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="1770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="49EBJ3sMtInon-qzi84H-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="49EBJ3sMtInon-qzi84H-49" target="49EBJ3sMtInon-qzi84H-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="1545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49EBJ3sMtInon-qzi84H-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="49EBJ3sMtInon-qzi84H-49" target="49EBJ3sMtInon-qzi84H-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49EBJ3sMtInon-qzi84H-49" value="If&amp;nbsp; correct_guess =word_len" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="1500" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="49EBJ3sMtInon-qzi84H-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="49EBJ3sMtInon-qzi84H-53" target="49EBJ3sMtInon-qzi84H-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="49EBJ3sMtInon-qzi84H-53" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="49EBJ3sMtInon-qzi84H-54" value="Your man is dead. YOU LOSE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="49EBJ3sMtInon-qzi84H-57" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1435" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="49EBJ3sMtInon-qzi84H-58" value="You guessed the word correctly. YOU WON" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
